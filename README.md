@@ -1,82 +1,78 @@
-# inventario_desafio
-Projeto de inventáSistema de Inventário e Ordenação – Free Fire (C)
+Sistema de Inventário – Projeto em C
+Desenvolvido em três níveis: Novato → Aventureiro → Mestre
 
-Este repositório contém o desenvolvimento do projeto dividido em três níveis:
-Novato, Aventureiro e Mestre.
-Cada fase adiciona novas funcionalidades e melhora a lógica do mini game de sobrevivência inspirado no Free Fire.
+Este repositório contém o desenvolvimento completo do sistema de inventário solicitado no PDF.
+O projeto evolui em três etapas, cada uma adicionando novos recursos e usos de estruturas de dados, sempre com código simples e claro.
 
-NÍVEL NOVATO
-Objetivo
+🟦 NÍVEL NOVATO
 
-Criar a primeira versão do inventário usando vetor e operações básicas.
+Primeira versão do sistema de inventário, usando apenas vetor.
 
-Funcionalidades Implementadas
+✔️ Funcionalidades
 
-struct com nome, tipo e quantidade
+Estrutura Item com nome, tipo e quantidade
 
-inserir item
+Inserir item
 
-remover item
+Remover item
 
-listar itens
+Listar itens
 
-busca sequencial (linear)
+Busca sequencial (linear)
 
-menu simples para navegação
+Menu inicial simples
 
 📄 Arquivo: inventario_novato.c
 
 🟨 NÍVEL AVENTUREIRO
-Objetivo
 
-Ampliar o sistema e começar a comparar duas estruturas de dados: vetor e lista encadeada.
+Expansão do inventário com vetor e lista encadeada, permitindo comparar estruturas.
 
-Funcionalidades – Vetor
+✔️ Funcionalidades – Vetor
 
-inserir item
+Inserir itens
 
-remover item
+Remover itens
 
-listar itens
+Listar
 
-ordenação simples (Bubble Sort)
+Ordenar por nome (Bubble Sort)
 
-busca binária
+Busca binária
 
-contagem de comparações na busca
+Contador de comparações
 
-Funcionalidades – Lista Encadeada
+✔️ Funcionalidades – Lista Encadeada
 
-inserir item
+Inserir
 
-remover item
+Remover
 
-listar itens
+Listar
 
 📄 Arquivo: inventario_aventureiro.c
 
 🟥 NÍVEL MESTRE
-Objetivo
 
-Aprimorar o trabalho adicionando dois métodos de ordenação e melhor organização lógica.
+Última evolução do projeto, adicionando dois métodos de ordenação e aprimorando o sistema.
 
-Funcionalidades Implementadas
+✔️ Funcionalidades
 
-ordenação Bubble Sort
+Ordenação Bubble Sort
 
-ordenação Selection Sort
+Ordenação Selection Sort
 
-busca binária com contagem de comparações
+Busca binária com contagem
 
-vetor funcionando com todas as operações
+Comparação entre métodos
 
-lista encadeada com inserir, remover e listar
+Lista encadeada mantida
 
-comparação simples entre métodos de ordenação
+Sistema final mais organizado e completo
 
 📄 Arquivo: inventario_mestre.c
 
-▶️ COMO COMPILAR E EXECUTAR
+🛠️ COMO COMPILAR E EXECUTAR
 Compilar:
 gcc nome_do_arquivo.c -o programa
 
