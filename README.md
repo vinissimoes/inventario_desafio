@@ -25,6 +25,9 @@ Menu inicial simples
 
 Arquivo: inventario_novato.c
 
+
+
+
 NÍVEL AVENTUREIRO
 
 Expansão do inventário com vetor e lista encadeada, permitindo comparar estruturas.
@@ -52,6 +55,8 @@ Remover
 Listar
 
 Arquivo: inventario_aventureiro.c
+
+
 
 
 NÍVEL MESTRE
@@ -88,9 +93,10 @@ Exemplo:
 gcc inventario_mestre.c -o mestre
 ./mestre
 
-📁 ESTRUTURA DO REPOSITÓRIO
-📁 inventario_desafio
- ├── inventario_novato.c
- ├── inventario_aventureiro.c
- ├── inventario_mestre.c
- └── README.md
+
+- ESTRUTURA DO REPOSITÓRIO
+-inventario_desafio
+  - inventario_novato.c
+  - inventario_aventureiro.c
+  - inventario_mestre.c
+  - README.md
