@@ -5,92 +5,93 @@ Este repositório contém o desenvolvimento do projeto dividido em três níveis
 Novato, Aventureiro e Mestre.
 Cada fase adiciona novas funcionalidades e melhora a lógica do mini game de sobrevivência inspirado no Free Fire.
 
-🧩 Nível Novato
+NÍVEL NOVATO
+Objetivo
 
-Primeira parte do desafio.
-Neste nível eu aprendi a trabalhar com struct, vetor e operações básicas.
+Criar a primeira versão do inventário usando vetor e operações básicas.
 
-✔ Funcionalidades:
+Funcionalidades Implementadas
 
-Cadastro de até 10 itens
+struct com nome, tipo e quantidade
 
-Remoção de item por nome
+inserir item
 
-Listagem dos itens da mochila
+remover item
 
-Busca sequencial simples
+listar itens
 
-Uso de vetor de structs
+busca sequencial (linear)
 
-📄 Arquivo:
+menu simples para navegação
 
-inventario_novato.c
+📄 Arquivo: inventario_novato.c
 
-🛠️ Nível Aventureiro
+🟨 NÍVEL AVENTUREIRO
+Objetivo
 
-Nesta etapa, o sistema cresce e ganha duas versões:
-uma usando vetor e outra com lista encadeada.
+Ampliar o sistema e começar a comparar duas estruturas de dados: vetor e lista encadeada.
 
-✔ Funcionalidades:
+Funcionalidades – Vetor
 
-Inserção, remoção, busca e listagem no vetor
+inserir item
 
-Inserção, remoção, busca e listagem na lista encadeada
+remover item
 
-Ordenação por nome (Bubble Sort ou Selection Sort)
+listar itens
 
-Busca binária no vetor depois de ordenar
+ordenação simples (Bubble Sort)
 
-Comparação entre estruturas sequenciais e encadeadas
+busca binária
 
-📄 Arquivo:
+contagem de comparações na busca
 
-inventario_aventureiro.c
+Funcionalidades – Lista Encadeada
 
-🧠 Nível Mestre
+inserir item
 
-Último nível do desafio, unindo tudo e adicionando algoritmos de ordenação mais completos e métrica de desempenho.
+remover item
 
-✔ Funcionalidades:
+listar itens
 
-Cadastro de até 20 componentes
+📄 Arquivo: inventario_aventureiro.c
 
-Ordenação por:
+🟥 NÍVEL MESTRE
+Objetivo
 
-Nome → Bubble Sort
+Aprimorar o trabalho adicionando dois métodos de ordenação e melhor organização lógica.
 
-Tipo → Insertion Sort
+Funcionalidades Implementadas
 
-Prioridade → Selection Sort
+ordenação Bubble Sort
 
-Contagem do número de comparações
+ordenação Selection Sort
 
-Medição de tempo de cada algoritmo (clock())
+busca binária com contagem de comparações
 
-Busca binária por nome, após ordenar
+vetor funcionando com todas as operações
 
-Exibição final dos componentes ordenados
+lista encadeada com inserir, remover e listar
 
-📄 Arquivo:
+comparação simples entre métodos de ordenação
 
-inventario_mestre.c
+📄 Arquivo: inventario_mestre.c
 
-🗂 Organização do Repositório
-📁 Projeto-FreeFire-C
+▶️ COMO COMPILAR E EXECUTAR
+Compilar:
+gcc nome_do_arquivo.c -o programa
+
+Executar:
+./programa
+
+
+Exemplo:
+
+gcc inventario_mestre.c -o mestre
+./mestre
+
+📁 ESTRUTURA DO REPOSITÓRIO
+📁 inventario_desafio
  ├── inventario_novato.c
  ├── inventario_aventureiro.c
  ├── inventario_mestre.c
  └── README.md
-
-🚀 Como executar
-
-Abra o arquivo .c desejado
-
-Compile com GCC:
-
-gcc nome_do_arquivo.c -o programa
-
-
-Execute:
-
-./programario
