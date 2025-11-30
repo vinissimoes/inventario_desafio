@@ -4,11 +4,12 @@ Desenvolvido em três níveis: Novato → Aventureiro → Mestre
 Este repositório contém o desenvolvimento completo do sistema de inventário solicitado no PDF.
 O projeto evolui em três etapas, cada uma adicionando novos recursos e usos de estruturas de dados, sempre com código simples e claro.
 
-🟦 NÍVEL NOVATO
+ 
+ NÍVEL NOVATO
 
 Primeira versão do sistema de inventário, usando apenas vetor.
 
-✔️ Funcionalidades
+- Funcionalidades
 
 Estrutura Item com nome, tipo e quantidade
 
@@ -22,13 +23,13 @@ Busca sequencial (linear)
 
 Menu inicial simples
 
-📄 Arquivo: inventario_novato.c
+Arquivo: inventario_novato.c
 
-🟨 NÍVEL AVENTUREIRO
+NÍVEL AVENTUREIRO
 
 Expansão do inventário com vetor e lista encadeada, permitindo comparar estruturas.
 
-✔️ Funcionalidades – Vetor
+- Funcionalidades – Vetor
 
 Inserir itens
 
@@ -42,7 +43,7 @@ Busca binária
 
 Contador de comparações
 
-✔️ Funcionalidades – Lista Encadeada
+- Funcionalidades – Lista Encadeada
 
 Inserir
 
@@ -50,13 +51,14 @@ Remover
 
 Listar
 
-📄 Arquivo: inventario_aventureiro.c
+Arquivo: inventario_aventureiro.c
 
-🟥 NÍVEL MESTRE
+
+NÍVEL MESTRE
 
 Última evolução do projeto, adicionando dois métodos de ordenação e aprimorando o sistema.
 
-✔️ Funcionalidades
+- Funcionalidades
 
 Ordenação Bubble Sort
 
@@ -70,9 +72,10 @@ Lista encadeada mantida
 
 Sistema final mais organizado e completo
 
-📄 Arquivo: inventario_mestre.c
+Arquivo: inventario_mestre.c
 
-🛠️ COMO COMPILAR E EXECUTAR
+
+COMO COMPILAR E EXECUTAR
 Compilar:
 gcc nome_do_arquivo.c -o programa
 
